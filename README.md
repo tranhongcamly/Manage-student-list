@@ -16,3 +16,5 @@ User list page
 ![image](https://user-images.githubusercontent.com/93385968/229002163-f4dfe958-86f3-4249-b6c3-bdd53dd988c6.png)
 
 On the list page, there are functions to view, delete and edit with rights such as the user has the right to delete and edit himself, the admin has the right to edit himself, delete himself and delete other users.
+
+Some of the technologies used to create this website: ReactJs, React Router, Ant Design.
