@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+Student list management website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Student list management website is mainly used for school admin to manage student list with the functions of registration, login, view, delete, edit users and admin. In addition, the website also has a home page so that users can view general information about the school.
 
-## Available Scripts
+HomePage no login
+![image](https://user-images.githubusercontent.com/93385968/229001542-c18ae518-21f1-4a92-a247-9c02825c1474.png)
+![image](https://user-images.githubusercontent.com/93385968/229001715-8fcffba7-37d3-42b2-8d6d-c02e0a879f2b.png)
 
-In the project directory, you can run:
+Users who want to see the list of users must login
+![image](https://user-images.githubusercontent.com/93385968/229001868-84326679-613a-4bb2-8f1d-b3d888563eeb.png)
 
-### `npm start`
+Users can register without an account, after the user registers the website account will be redirected to the login page
+![image](https://user-images.githubusercontent.com/93385968/229002013-2f4738fb-58f9-4056-a1aa-d62eca19a839.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User list page
+![image](https://user-images.githubusercontent.com/93385968/229002163-f4dfe958-86f3-4249-b6c3-bdd53dd988c6.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+On the list page, there are functions to view, delete and edit with rights such as the user has the right to delete and edit himself, the admin has the right to edit himself, delete himself and delete other users.
