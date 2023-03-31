@@ -1,0 +1,76 @@
+.row-contentHP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    background: linear-gradient(to top right, #66ffff 0%, #ffcccc 84%);
+    border-radius: 10px;
+    margin: 20px 40px 40px;
+}
+.col-contentHP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-contentHP-icon{
+    background-color: #ffcccce5;
+    border-radius: 5px;
+    padding: 10px;
+}
+.col-contentHP-icon .icon-contentHP{
+    font-size: 28px;
+}
+.col-contentHP-icon .icon2-contentHP{
+    font-size: 30px;
+}
+.card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(133, 133, 133);
+    margin: 10px 0;
+}
+.card-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+.card{
+    position: relative;
+    background-color: white;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+.card-body{
+    margin: 10px auto;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+}
+img{
+    /* width: 208px;
+    height: 110px; */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    /* position: absolute;
+    top: 0; */
+    text-align: center;
+}
+/* Activities */
+
+/* Post */
+.post-h1{
+    padding: 10px ;
+    background: linear-gradient(to right, #66ffff 0%, #ffccff 80%);
+    margin: 70px 0 50px;
+}

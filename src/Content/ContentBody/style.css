@@ -1,0 +1,76 @@
+.ListItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgba(160, 224, 195, 0.49);
+    background-color: rgba(187, 237, 215, 0.321);
+    border-radius: 20px;
+    padding: 20px 0 50px 0;
+}
+.styleList{
+    background-color: rgba(255, 204, 213, 0.636);
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+.styleList h1{
+    margin: 0;
+}
+table{
+    width: 80%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 1rem;
+    border: 1px solid rgba(178, 194, 221, 0.404);
+}
+thead{
+    display: table-header-group;
+    border: 1px solid rgba(178, 194, 221, 0.314);
+    background-color: rgba(203, 217, 237, 0.37);
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+th{
+    border: 1px solid rgba(178, 194, 221, 0.314);
+    border-collapse: collapse;
+    padding: 1rem;
+}
+tbody{
+    background-color: white;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td{
+    border: 1px solid rgba(178, 194, 221, 0.314);
+    border-collapse: collapse;
+    padding: 1rem;
+}
+.btedit{
+    background-color: rgba(208, 238, 252, 0.611);
+    border: 1px solid rgba(208, 238, 252, 0.611);
+}
+.btedit:hover{
+    border: 1px solid blue;
+}
+.btdelete{
+    background-color: rgba(254, 226, 223, 0.611);
+    border: 1px solid rgba(254, 226, 223, 0.611);
+}
+.btdelete:hover{
+    border: 1px solid red;
+}

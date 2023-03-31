@@ -1,0 +1,77 @@
+.sider{
+    background-color: linen;
+}
+.rowMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .rowMenu Col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+
+} */
+.rowMenu-Col1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 15px 70px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rowMenu-Col1:hover{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.rowMenu-Col2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+.rowMenu-Col2:hover{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.rowMenu-Col3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 15px 63px;
+    font-size: 15px;
+}
+.rowMenu-Col3:hover{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.bt-rowMenu-Col2{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    margin: 0;
+    color: #1677FF;
+    box-shadow: none;
+    font-size: 15px!important;
+}
+.bt-rowMenu-Col2:hover{
+    color: white!important;
+}
+.logo1 img{
+    width: 59%;
+    
+}
+.logo1{
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.223);
+}
